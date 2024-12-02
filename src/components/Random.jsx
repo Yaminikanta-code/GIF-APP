@@ -17,8 +17,11 @@ function Random() {
   }, []);
   return (
     <>
-      <h1>Random GIF</h1>
-      <img width="500" src={gif} alt="Ramdom GIF" />
+      <div className="container">
+        <h1>Random GIF</h1>
+        <img width="500" height={"500"} src={gif} alt="Ramdom GIF" />
+        <button>Random GIF</button>
+      </div>
     </>
   );
 }
