@@ -15,20 +15,6 @@ A simple React website that fetches and displays random GIFs using the Giphy API
 
 ---
 
-## Demo
-
-### **Random GIF**
-
-- Displays a random GIF.
-- Fetches a new random GIF on button click.
-
-### **Tag-based GIF**
-
-- Users can enter a tag in the input field.
-- Fetches and displays a random GIF related to the tag.
-
----
-
 ## Technologies Used
 
 - **React.js**: For building the user interface.
