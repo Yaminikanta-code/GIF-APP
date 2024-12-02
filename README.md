@@ -1,6 +1,6 @@
 # Random GIF Generator
 
-A simple React website that fetches and displays random GIFs using the Giphy API. The project utilizes a custom hook, `useGif`, to handle API requests and state management. It has two main features:
+A simple React website that fetches and displays random GIFs using the Giphy API. The project utilizes a custom hook, `useGIF`, to handle API requests and state management. It has two main features:
 
 1. **Random GIF**: Displays a random GIF and allows users to fetch another random GIF by clicking a button.
 2. **Tag-based GIF**: Allows users to enter a tag and fetch a random GIF related to that tag.
@@ -11,7 +11,7 @@ A simple React website that fetches and displays random GIFs using the Giphy API
 
 - Fetch and display a random GIF from the Giphy API.
 - Fetch a tag-specific GIF based on user input.
-- Uses a reusable custom React hook (`useGif`) for API integration.
+- Uses a reusable custom React hook (`useGIF`) for API integration.
 
 ---
 
