@@ -1,6 +1,12 @@
 import React, { useState } from "react";
 import useGIF from "../hooks/useGIF";
 
+/**
+ * React component that displays a random GIF from the Giphy API.
+ * It allows user to input a tag and fetch a random GIF related to that tag.
+ * @function
+ * @return {ReactElement} The rendered element
+ */
 function Tag() {
   const [tag, setTag] = useState("random");
   const { gif, getGif } = useGIF(tag);
